@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aman AI Academy</title>
+<meta name="description" content="Learn AI tools and digital skills with Aman AI Academy.">
+
+<style>
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  font-family:Arial,sans-serif;
+  background:#081120;
+  color:#f5f7ff;
+  line-height:1.7
+}
+header{
+  padding:18px 6%;
+  background:#101b31;
+  border-bottom:1px solid #293751;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:12px
+}
+.logo{font-size:21px;font-weight:bold;color:#79cfff}
+nav a{color:white;text-decoration:none;margin:0 7px;font-size:14px}
+section{padding:55px 7%}
+.hero{
+  background:radial-gradient(ellipse at top right,#35306c,#081120 65%);
+  text-align:center;padding-top:75px;padding-bottom:75px
+}
+.tag{color:#62e0b1;font-weight:bold}
+h1{font-size:clamp(36px,7vw,60px);line-height:1.15;margin:18px 0}
+h2{font-size:30px}
+p{color:#c3cde0}
+.gradient{
+  background:linear-gradient(90deg,#4ec5ff,#a78bfa);
+  color:transparent;background-clip:text
+}
+.btn{
+  display:inline-block;
+  background:linear-gradient(100deg,#4ec5ff,#9273ff);
+  color:#071120;text-decoration:none;
+  padding:12px 23px;border-radius:30px;
+  font-weight:bold;margin:8px 4px
+}
+.secondary{background:transparent;color:white;border:1px solid #63708c}
+.container{max-width:1050px;margin:auto}
+.cards{
+  display:grid;grid-template-columns:repeat(3,1fr);
+  gap:18px;margin-top:25px
+}
+.card{
+  background:#111e33;border:1px solid #293751;
+  padding:22px;border-radius:16px
+}
+.card h3{margin-top:0}
+.ebook{
+  background:linear-gradient(135deg,#141d3b,#101326);
+  border:1px solid #38315e;border-radius:20px;
+  padding:28px;max-width:650px;margin:auto;text-align:center
+}
+.price{font-size:42px;font-weight:bold;color:#8cd7ff}
+.small{font-size:13px;color:#aebbd1}
+footer{text-align:center;padding:25px;border-top:1px solid #293751}
+@media(max-width:650px){
+  header{justify-content:center;text-align:center}
+  nav{width:100%;text-align:center}
+  nav a{display:inline-block;margin:5px}
+  .cards{grid-template-columns:1fr}
+  section{padding:42px 6%}
+}
+</style>
+</head>
+
+<body>
+<header>
+  <div class="logo">✦ Aman AI Academy</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#ebook">eBook</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <div class="container">
+    <span class="tag">LEARN • BUILD • GROW</span>
+    <h1>AI Seekho.<br><span class="gradient">Mobile Se Grow Karo.</span></h1>
+    <p>
+      Welcome to Aman AI Academy! Yahan tum AI tools,
+      digital skills aur online opportunities ke baare mein
+      simple language mein seekh sakte ho.
+    </p>
+    <a class="btn" href="#ebook">Explore eBook ↓</a>
+    <a class="btn secondary" href="#about">About Me</a>
+  </div>
+</section>
+
+<section id="about">
+  <div class="container">
+    <h2>About Aman AI Academy</h2>
+    <p>
+      Mera goal beginner-friendly learning resources share karna hai,
+      taaki log AI tools aur digital skills ko step by step samajh saken.
+      Shuruaat mobile se bhi ki ja sakti hai.
+    </p>
+  </div>
+</section>
+
+<section style="background:#0c1729" id="learn">
+  <div class="container">
+    <h2 style="text-align:center">What You Can Learn</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>🤖 AI Tools</h3>
+        <p>AI tools ko samajhna aur learning, writing aur ideas mein unka use.</p>
+      </div>
+      <div class="card">
+        <h3>📱 Mobile Skills</h3>
+        <p>Phone se basic design, content creation aur useful digital skills seekhna.</p>
+      </div>
+      <div class="card">
+        <h3>🚀 Online Opportunities</h3>
+        <p>Online work ke possible options ko samajhna. Earning guaranteed nahi hoti.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ebook">
+  <div class="container">
+    <div class="ebook">
+      <span class="tag">FEATURED EBOOK</span>
+      <h2>How to Earn Money by AI + Mobile</h2>
+      <p>Complete Beginner Guide</p>
+      <p>AI tools aur mobile-based digital skills ko explore karne ke liye beginner-friendly PDF guide.</p>
+      <div class="price">₹149</div>
+      <p class="small">Digital PDF • Beginner Guide</p>
+
+      <!-- Replace #contact with your real checkout link when ready. -->
+      <a class="btn" href="#contact">Buy eBook — ₹149</a>
+
+      <p class="small">
+        Online payment aur automatic PDF delivery abhi connect nahi hain.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container" style="text-align:center">
+    <h2>Contact</h2>
+    <p>For questions about Aman AI Academy and the eBook.</p>
+    <p>Email: YOUR_EMAIL_HERE</p>
+    <p class="small">
+      Website publish karne se pehle YOUR_EMAIL_HERE ko
+      apne public contact email se replace karo.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2026 Aman AI Academy • Learn • Build • Grow
+</footer>
+</body>
+</html>
